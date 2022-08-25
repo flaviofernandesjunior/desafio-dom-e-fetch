@@ -14,8 +14,8 @@ function getUserInfo() {
         nomerua.innerHTML = usuario.location.street.name;
         let nomeEstado = document.getElementById("state");
         nomeEstado.innerHTML = usuario.location.state;
-        let novaImagem = document.getElementById("thumbnail");
-        novaImagem.setAttribute(src) = usuario.picture;
+        const picture = document.querySelector("#thumbnail")
+        picture.src = user.picture.medium;
         }
         
     )
